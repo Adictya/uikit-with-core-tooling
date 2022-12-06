@@ -225,7 +225,7 @@ export default class RtmEngine {
     }
   }
 
-  async sendMessageByChannelId(channel: string, message: string): Promise<any> {
+  async sendMessage(channel: string, message: string): Promise<any> {
     if (this.channelMap.get(channel)) {
       return this.channelMap.get(channel).sendMessage({text: message});
     } else {
@@ -415,7 +415,7 @@ export default class RtmEngine {
     return invite.send();
   }
 
-  async sendMessageToPeer(AgoraPeerMessage: {
+  async sendMessageToPeerV2(AgoraPeerMessage: {
     peerId: string;
     offline: boolean;
     text: string;

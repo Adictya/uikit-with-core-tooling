@@ -224,6 +224,8 @@ export default class RtcEngine {
     }
   }
 
+  async enableAudioVolumeIndication(): Promise<void> {}
+
   async enableVideo(): Promise<void> {
     /**
      * Issue: Backgrounding the browser or app causes the audio streaming to be cut off.

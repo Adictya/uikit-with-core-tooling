@@ -12,7 +12,7 @@ const App = () => {
     EndCall: () => setVideoCall(false),
   };
   return videoCall ? (
-    <AgoraUIKit rtcProps={connectionData} rtcCallbacks={rtcCallbacks} />
+    <AgoraUIKit connectionData={connectionData} rtcCallbacks={rtcCallbacks} />
   ) : (
     <Text onPress={() => setVideoCall(true)}>Start Call</Text>
   );
