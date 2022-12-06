@@ -1,0 +1,110 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+template/build/
+template/*.pbxuser
+template/!default.pbxuser
+template/*.mode1v3
+template/!default.mode1v3
+template/*.mode2v3
+template/!default.mode2v3
+template/*.perspectivev3
+template/!default.perspectivev3
+template/xcuserdata
+template/*.xccheckout
+template/*.moved-aside
+template/DerivedData
+template/*.hmap
+template/*.ipa
+template/*.xcuserstate
+
+# Android/IntelliJ
+#
+template/android/**/build/
+template/android/**/.idea
+template/android/**/.gradle
+template/android/**/local.properties
+template/android/**/*.iml
+
+# Visual Studio Code
+#
+template/.vscode/
+
+# node.js
+#
+template/node_modules/
+template/npm-debug.log
+template/yarn-error.log
+
+# BUCK
+template/buck-out/
+template/\.buckd/
+template/*.keystore
+template/!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+template/*/fastlane/report.xml
+template/*/fastlane/Preview.html
+template/*/fastlane/screenshots
+
+# Bundle artifact
+template/*.jsbundle
+
+# CocoaPods
+template/ios/Pods/
+
+# UI Kit
+template/agora-rn-uikit/
+
+# Built website
+template/dist/
+
+# Electron cache
+template/.electron/
+template/.webpack/
+template/out/
+
+# Jetbrains
+.idea/
+**/.idea/
+
+# Dotfiles
+template/.buckconfig
+template/.eslintrc.js
+template/.gitattributes
+template/.prettierrc.js
+template/.watchmanconfig
+
+# Config
+template/config.json
+template/config-light.json
+template/config-dark.json
+
+#theme
+template/theme.json
+template/theme-light.json
+template/theme-transparent.json
+template/theme-dark.json
+
+#lock file
+#template/package-lock.json
+
+# vscode
+.vscode
+
+# logflies
+*.log
+
+#FPE plugin folder
+template/customization/*
+Builds
+esbuild-bin
